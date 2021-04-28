@@ -1,2 +1,2 @@
-class Years < ApplicationController
+class Year < ApplicationRecord
 end
