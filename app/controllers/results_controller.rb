@@ -20,6 +20,6 @@ class ResultsController < ApplicationController
 
     private
     def result_params
-        params.require(:result).permit(:id, :name, amount:, :year_id)
+        params.require(:result).permit(:name, :starting_principle, :annual_principle, :interest_rate)
     end
 end
